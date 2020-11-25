@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  Future<void> _showDialog() {
+  Future<void> _showDialog() async {
     return showDialog<void>(
       context: context,
       barrierDismissible: false,
